@@ -1,4 +1,4 @@
-<h1>WEB PROJECT</h1>
+<h1>#OPENSOURCE CONTRIVUTION PROJECT</h1>
 
 
 <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg" alt="hacoctoberfest2k21">
