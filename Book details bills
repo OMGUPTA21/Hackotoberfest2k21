@@ -48,3 +48,28 @@ Please give some more valuable  trick
     printf(" \n ");
    }
  }
+   void output(struct bookdetail X[],int n)
+ {
+    int i,t=1;
+    for(i=0;i<n;i++,t++)
+   {
+    printf("\n");
+    printf(" Book No. %d\n",t);
+    printf("\t Book %d Name is   = %s \n",t,X[i].name);
+    printf("\t Book %d Author is = %s \n",t,X[i].author);
+    printf("\t Book %d Pages is  = %d \n",t,X[i].pages);
+    printf("\t Book %d Price is  = %0.2f \n",t,X[i].price);
+    printf(" \n ");
+   }  void output(struct bookdetail X[],int n)
+ {
+    int i,t=1;
+    for(i=0;i<n;i++,t++)
+   {
+    printf("\n");
+    printf(" Book No. %d\n",t);
+    printf("\t Book %d Name is   = %s \n",t,X[i].name);
+    printf("\t Book %d Author is = %s \n",t,X[i].author);
+    printf("\t Book %d Pages is  = %d \n",t,X[i].pages);
+    printf("\t Book %d Price is  = %0.2f \n",t,X[i].price);
+    printf(" \n ");
+   }
