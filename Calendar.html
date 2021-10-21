@@ -108,6 +108,32 @@ cal += '</TD></TR></TABLE></TABLE>';
 
 //  PRINT CALENDAR
 document.write(cal);
+       // SET VARIABLE INSIDE LOOP FOR INCREMENTING PURPOSES
+  var day  = Calendar.getDate();
+
+  // HIGHLIGHT TODAY'S DATE
+  if( today==Calendar.getDate() )
+  cal += highlight_start + day + highlight_end + TD_end;
+
+  // PRINTS DAY
+  else
+  cal += TD_start + day + TD_end;
+  }
+
+  // END ROW FOR LAST DAY OF WEEK
+  if(week_day == DAYS_OF_WEEK)
+  cal += TR_end;
+  }
+
+  // INCREMENTS UNTIL END OF THE MONTH
+  Calendar.setDate(Calendar.getDate()+1);
+
+}// end for loop
+
+cal += '</TD></TR></TABLE></TABLE>';
+
+//  PRINT CALENDAR
+document.write(cal);
 
 //  End -->
 </script>
@@ -116,4 +142,5 @@ document.write(cal);
 </body>
 </html>
 
+plesae give some more responsive js
 plesae give some more responsive js
